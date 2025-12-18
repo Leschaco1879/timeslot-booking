@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { durationForSlots } from "@/utils/slots";
+import { durationForSlots } from "../../utils/slots";
 
 export default function BookPage() {
   const [slots, setSlots] = useState(1);
